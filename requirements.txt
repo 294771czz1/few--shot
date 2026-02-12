@@ -1,0 +1,33 @@
+# ============================================
+# 项目依赖 (Windows GPU 版本, CUDA 12.1)
+# ============================================
+# 安装说明:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#   pip install -r requirements.txt
+# ============================================
+
+# --- 核心框架 (torch/torchvision 请先用上面的命令单独安装) ---
+# torch
+# torchvision
+torchmetrics>=1.0
+
+# --- 数据处理 ---
+numpy>=1.24,<2.0
+pandas>=2.0
+Pillow>=10.0
+opencv-python>=4.8
+
+# --- 科学计算 ---
+scipy>=1.11
+scikit-learn>=1.3
+matplotlib>=3.7
+
+# --- 工具库 ---
+tqdm>=4.60
+omegaconf>=2.3
+regex>=2023.0
+termcolor>=2.0
+ftfy>=6.0
+
+# --- DINOv3 backbone 依赖 ---
+PyYAML>=6.0
