@@ -1,4 +1,4 @@
-# SegDINO: Few-Shot Segmentation with Enhanced DINOv3
+# Hyper-DINO: Efficient Few-Shot Segmentation via Internal Adaptation and Hypergraph Feature Enhancement
 
 > A few-shot segmentation framework based on DINOv3, integrating three enhancement modules (GLCM, Hypergraph GCN, Internal Adapter) for medical imaging (thyroid nodules), industrial defect detection (MVTec AD / ViSA), and remote sensing segmentation.
 
